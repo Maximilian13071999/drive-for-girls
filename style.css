@@ -23,7 +23,9 @@ body, html {
     margin-top: 4000px;
 }
 @media (min-width: 768px) { 
-	    margin-top: 800px;
+	    .wrapper {
+    margin-top: 800px;
+}
 }
 .card {
     margin-bottom: 30px;
