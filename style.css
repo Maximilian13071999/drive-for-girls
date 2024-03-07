@@ -14,7 +14,6 @@ body, html {
 }
 .wrapper {
 	display: flex;
-    margin-top: 800px;
 	width: 70%;
     flex-wrap: wrap;
 	justify-content: space-around;
@@ -22,6 +21,9 @@ body, html {
 @media (max-width: 768px) { 
 .wrapper {
     margin-top: 4000px;
+}
+@media (min-width: 768px) { 
+	    margin-top: 800px;
 }
 .card {
     margin-bottom: 30px;
