@@ -20,7 +20,7 @@ body, html {
 }
 @media (max-width: 768px) { 
 .wrapper {
-    margin-top: 4000px;
+    margin-top: 4600px;
 }
 @media (min-width: 768px) { 
 	    .wrapper {
