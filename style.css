@@ -19,12 +19,18 @@ body, html {
 }
 @media (max-width: 768px) { 
 .wrapper {
-    margin-top: 4600px;
+    margin-top: 4300px;
+}
+body, html {
+	background-image: url("https://i.imgur.com/oYHGJZW.png");
 }
 }
 @media (min-width: 768px) { 
 	    .wrapper {
     margin-top: 800px;
+}
+	body, html {
+	background-image: url("https://i.imgur.com/pzL26ln.png");
 }
 }
 .card {
