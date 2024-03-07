@@ -11,6 +11,11 @@ body, html {
 	background-size: cover;
 	background-attachment: fixed;
 }
+@media (max-width: 768px) { 
+.wrapper {
+    margin-top: 4000px;
+}
+}
 .wrapper {
 	display: flex;
     margin-top: 800px;
