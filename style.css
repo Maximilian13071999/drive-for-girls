@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("img/Drive\ 8\ march.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.wrapper {
+	display: flex;
+    margin-top: 800px;
+	width: 70%;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+    margin-bottom: 30px;
+	width: 280px;
+	height: 360px;
+	border-radius: 15px;
+	padding: 1.5rem;
+	background: white;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+	transform: translateY(20px);
+}
+.card:hover:before {
+	opacity: 1;
+}
+.card:hover .info {
+	opacity: 1;
+	transform: translateY(0px);
+}
+.card:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
+.card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+}
+.card .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+}
+.card .info h1 {
+	margin: 0px;
+}
+.card .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+}
+.card .info button {
+	padding: 0.6rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: white;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+.card .info button:hover {
+	background: dodgerblue;
+	color: white;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .close {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
