@@ -24,7 +24,7 @@ var videos = {
     "AndreyK": "https://www.youtube.com/embed/bkpqnJFkfmI",
     "Ivan": "https://www.youtube.com/embed/58zJ3pF_V0g",
     "Zhenya": "https://www.youtube.com/embed/Do7eWovOme4",
-    "Vel": "https://www.youtube.com/embed/",
+    "Vel": "https://www.youtube.com/embed/GiWyOioVZ9c",
     "Max": "https://www.youtube.com/embed/RcVxVJVJ8Hw",
     "Secret": "https://www.youtube.com/embed/v4HuIon-2vc",
 }
