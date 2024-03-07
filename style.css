@@ -11,7 +11,6 @@ body, html {
 	background-size: cover;
 	background-attachment: fixed;
 }
-}
 .wrapper {
 	display: flex;
 	width: 70%;
@@ -21,6 +20,7 @@ body, html {
 @media (max-width: 768px) { 
 .wrapper {
     margin-top: 4600px;
+}
 }
 @media (min-width: 768px) { 
 	    .wrapper {
